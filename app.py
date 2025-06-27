@@ -2,11 +2,11 @@
 # app.py
 
 
-#import dash
-#from dash import dcc, html, Input, Output
-#import dash_bootstrap_components as dbc
-#import pandas as pd
-#import plotly.express as px
+import dash
+from dash import dcc, html, Input, Output
+import dash_bootstrap_components as dbc
+import pandas as pd
+import plotly.express as px
 #from pyngrok import conf,ngrok
 
 
