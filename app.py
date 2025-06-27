@@ -1,4 +1,4 @@
-!pip install dash dash-bootstrap-components plotly pandas
+#!pip install dash dash-bootstrap-components plotly pandas
 # app.py
 
 
