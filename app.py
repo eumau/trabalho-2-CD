@@ -1,5 +1,6 @@
 pip install dash dash-bootstrap-components plotly pandas
 pip install pyngrok
+pip install gunicorn
 # app.py
 
 import dash
