@@ -264,7 +264,10 @@ def update_graph_plataforma(selected_platform):
 # Rodar o servidor local
 # ==============================
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port)
+
 
 public_url = ngrok.connect(8050)
 print('Public URL:', public_url)
